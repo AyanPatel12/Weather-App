@@ -8,7 +8,7 @@ function App() {
   const [location, setLocation] = useState('');
   const [feels, setFeels] = useState('');
   const [celsius, setCelsius] = useState(0);
-  const apiKey = '3d498a1a05d4e271be330647b0a81506';
+  const apiKey = 'apikey';
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}`;
   const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${location}&appid=${apiKey}`;
 
